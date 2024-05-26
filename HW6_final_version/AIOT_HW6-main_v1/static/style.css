@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.header-container {
+    background-color: #333; /* 统一的背景颜色 */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff; /* 白色文字 */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.banner-image {
+    width: 100%;
+    height: 300px; /* 调整高度 */
+    object-fit: cover;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.navigation li a {
+    color: #fff; /* 白色链接 */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3); /* 略微透明的背景 */
+}
+
+.navigation li a:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* 悬停效果 */
+}
+
+.container {
+    padding: 40px 20px;
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+    background: none; /* 透明背景 */
+}
+
+.chart-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+canvas {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.datetime-inputs {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.datetime-inputs label {
+    margin-right: 10px;
+}
+
+.datetime-inputs input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-container {
+    text-align: center; /* 按钮居中 */
+    margin-top: 20px; /* 按钮上方添加间距 */
+}
+
+.button, #fetchDataBtn {
+    background-color: #4CAF50; /* 统一的主题颜色 */
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 8px; /* 圆角 */
+    display: inline-block;
+    font-size: 16px;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* 平滑过渡效果 */
+}
+
+.button:hover, #fetchDataBtn:hover {
+    background-color: #686f69; /* 悬停时的深色 */
+    transform: translateY(-2px); /* 轻微提升效果 */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* 微妙的阴影效果 */
+}
+
+#fetchDataBtn {
+    cursor: pointer;
+}

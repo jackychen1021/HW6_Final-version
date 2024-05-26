@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Data</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/static/script_realtime.js"></script>
+</head>
+<body>
+    {% include 'header.html' %}
+    <div class="container">
+        <h1>Real-Time Data Visualization</h1>
+        <div class="chart-container">
+            <canvas id="realtimeChart"></canvas>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+</body>
+</html>

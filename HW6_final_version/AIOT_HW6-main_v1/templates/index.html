@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;"> <!-- Ensure the HTML has 100% height -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Data Collection</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body {
+            background-image: url('https://www.2cm.com.tw/2cm/img/cms/864/486/1/2019-04/201904291809143007845013.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .container {
+            flex: 1 0 auto; /* Flex-grow as needed, no flex-shrink, and base size of auto */
+            background-color: rgba(255,255,255,0.8); /* Lowered opacity for a lighter semi-transparency */
+            padding: 20px;
+            margin-top: 70px; /* Increased margin-top to prevent overlap with the header */
+            margin-bottom: 100px; /* Added margin-bottom to ensure no overlap with footer */
+        }
+
+        footer {
+            flex-shrink: 0; /* Prevents the footer from shrinking */
+        }
+    </style>
+</head>
+<body>
+    {% include 'header.html' %}
+    <main class="container">
+        <h1>Welcome to Sensor Data Collection</h1>
+        <p>Monitor temperature and humidity with our sensor data collection system.</p>
+        <form id="dataForm">
+            <div class="search-bar">
+                <select id="dataType" name="data-type">
+                    <option value="/visualize-realtime">Real-Time Data</option>
+                    <option value="/visualize-specifiedtime">Historical Data</option>
+                </select>
+                <button type="submit" class="button search-button">Search</button>
+            </div>
+        </form>
+    </main>
+    {% include 'footer.html' %}
+</body>
+<script>
+    document.getElementById('dataForm').onsubmit = function() {
+        var selectedUrl = document.getElementById('dataType').value;
+        window.location = selectedUrl;
+        return false; // Prevents the default form submission
+    };
+</script>
+</html>
