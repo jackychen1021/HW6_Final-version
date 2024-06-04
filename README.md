@@ -18,10 +18,10 @@
 1. 取得溫溼度資料，下圖可以看到Arduino 已經有收到溫溼度，但是因為還沒有開啟伺服器，所以connection refused.
 ![Untitled (1)](https://github.com/jackychen1021/HW6_Final-version/assets/150798964/3b32c396-c58f-437c-abe7-18f71517b0e4)
 2. 在終端機執行以下指令
-a. sudo apt update
-b. sudo apt install python3
-c. sudo apt install python3-pip
-d. sudo pip3 install flask
+    1. sudo apt update
+    2. sudo apt install python3
+    3. sudo apt install python3-pip
+    4. sudo pip3 install flask
 3. 開啟終端機執行python3  app.py
 ![Untitled (2)](https://github.com/jackychen1021/HW6_Final-version/assets/150798964/b6ba4746-bb26-48a9-bc2c-d2b80d4a03e8)
 ![Untitled (3)](https://github.com/jackychen1021/HW6_Final-version/assets/150798964/852c705b-b2ed-46d8-9db0-643a7137fe1c)
