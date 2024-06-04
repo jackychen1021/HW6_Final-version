@@ -40,3 +40,8 @@ d. sudo pip3 install flask
 第六部份：
 1. 手繪架構圖
 ![Untitled](https://github.com/jackychen1021/HW6_Final-version/assets/150798964/7f357777-3edf-4d44-b0b1-ea563e03c266)
+2. 利用Excalidraw 以及 Mermaid 呈現此次作業流程圖
+![Untitled (8)](https://github.com/jackychen1021/HW6_Final-version/assets/150798964/efc4a518-3c27-4a45-8fba-660cc2e1d4c6)
+![Untitled (9)](https://github.com/jackychen1021/HW6_Final-version/assets/150798964/d03c3dd7-f747-4e4a-ad0a-3eed8520ef4f)
+![Untitled (10)](https://github.com/jackychen1021/HW6_Final-version/assets/150798964/ed4b96b6-b393-4f81-bc26-8bdda6db265d)
+![Untitled (11)](https://github.com/jackychen1021/HW6_Final-version/assets/150798964/1f9fdc7b-fe7e-4b8e-b274-b41735e905b7)
