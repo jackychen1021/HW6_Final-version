@@ -46,7 +46,7 @@
 1. Arduino : https://www.youtube.com/watch?v=mQuQ0NCdato
 2. Web Demo : https://www.youtube.com/watch?v=4lYTIg_kBnk
 
-第六部份：
+第六部份：整體架構圖
 1. 手繪架構圖
 ![Untitled](https://github.com/jackychen1021/HW6_Final-version/assets/150798964/7f357777-3edf-4d44-b0b1-ea563e03c266)
 2. 利用Excalidraw 以及 Mermaid 呈現此次作業流程圖
