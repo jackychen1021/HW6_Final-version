@@ -29,7 +29,7 @@
 ![Untitled (4)](https://github.com/jackychen1021/HW6_Final-version/assets/150798964/ac640d99-883d-43a4-bfcc-a86a9c1fc60d)
 
 第三部份：使用Flask製作前端頁面
-1. index.html呈現結果(下拉式選單)
+1. index.html呈現結果(下拉式選單)(包含header.html/footer.html)
 ![Untitled (5)](https://github.com/jackychen1021/HW6_Final-version/assets/150798964/217ef099-fede-48c4-a453-2b7962d91dd5)
 2. realtime-data.html
 ![Untitled (6)](https://github.com/jackychen1021/HW6_Final-version/assets/150798964/7678564c-6b80-47c7-8652-abe6507f16b8)
