@@ -13,8 +13,6 @@ b. sudo apt install python3
 c. sudo apt install python3-pip
 d. sudo pip3 install flask
 3. 開啟終端機執行python3  app.py
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/bba2bd5f-0757-4e89-819b-95c647d8b8eb/a70d85dc-7e14-4b00-8f83-d2dddbf59f8c/Untitled.png)
-
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/bba2bd5f-0757-4e89-819b-95c647d8b8eb/85680169-a884-4edd-b785-f7b0bce6b46b/Untitled.png)
 5. 開啟伺服器之後，再次查看Adruino 序列埠監控窗，可以看到資料已經Post 成功。
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/bba2bd5f-0757-4e89-819b-95c647d8b8eb/b397d71e-2ad5-470f-9eef-e586424c64a4/Untitled.png)
