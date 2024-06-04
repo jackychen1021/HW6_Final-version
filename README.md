@@ -31,9 +31,9 @@
 第三部份：使用Flask製作前端頁面
 1. index.html呈現結果(下拉式選單)(包含header.html/footer.html)
 ![Untitled (5)](https://github.com/jackychen1021/HW6_Final-version/assets/150798964/217ef099-fede-48c4-a453-2b7962d91dd5)
-2. realtime-data.html
+2. realtime-data.html(script_realtime.js)
 ![Untitled (6)](https://github.com/jackychen1021/HW6_Final-version/assets/150798964/7678564c-6b80-47c7-8652-abe6507f16b8)
-3. specifiedtime-data.html
+3. specifiedtime-data.html(script_specifiedtime.js)
 ![Untitled (7)](https://github.com/jackychen1021/HW6_Final-version/assets/150798964/c286f4e0-9f80-40c8-9e75-355105956e4f)
 
 第四部份：使用Flask製作後端API設計
