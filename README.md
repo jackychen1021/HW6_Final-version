@@ -1,4 +1,14 @@
 # HW6_Final-version
+作業內容
+
+1. 基本分(60％)(承Lab2,3實作內容)
+    1. **20%** ESP32傳輸溫濕度（在Arduino IDE中SerialPort觀測量測到之數據）
+    2. **20%** 使用Flask製作前端頁面（Frontend&UI）
+    3. **20%** 使用Flask製作後端API設計（Backend）
+2. 進階分(40%)
+    1. **20%** 呈現即時數據表現（每五秒更新一次數據）
+    2. **20%** 可觀看過去某個時間區段資料
+
 第一部份：Raspberry PI 刷機
 1. 下載Raspberry Pi IMAGER，並安裝到一張64GB記憶卡。
 2. 開啟下載好之Raspberry Pi Imager v1.8.5，並選擇正確的版本後刷機
